@@ -11,23 +11,53 @@
     <title>Interior Design Page</title>
   </head>
   <body>
+    <div class="container">
+      <div class="jumbotron text-center">
+        <h1>Inter Design Page!</h1>
+        <h3>Please note: Besides the navigational bar and dropdown on the top of the page, this was all created on my 2nd day using html/css. I have also added a bootstrap element "container" in order to supplement viewability.</h3>
+      </div>
+      <!-- Start Navbar -->
+      <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand text-muted" href="index.html">Kyle's Portfolio</a>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li class="dropdown">
+                <a data-toggle="dropdown" data-target="#">Explore<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="favorite-band.html">Favorite Band</a></li>
+                  <li class="divider"></li>
+                  <li><a href="interior-dec.html">Interior Design</a></li>
+                </ul>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Navbar -->
     <div class="column">
       <h1>Before</h1>
       <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-       enim ad minim veniam, quis nostrud exercitation ullamco laboris
-        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-        in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+       enim ad minim veniam, <span class="important">x ea commodo consequat. Duis aute irure dolor
+       in reprehenderit in voluptate velit esse cillum dolore e</span>quis nostrud exercitation ullamco laboris
+        nisi ut aliquip eu fugiat
          nulla pariatur. Excepteur sint occaecat cupidatat non proident,
           sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       <img src="http://lorempixel.com/400/200" alt="random picture">
     </div>
     <div class="column">
       <h2>During</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
       enim ad minim veniam, quis nostrud exercitation ullamco laboris
-      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+      nisi ut <span class="important">in reprehenderit in voluptate velit esse cillum dolore eu fugiat</span>aliquip ex ea commodo consequat. Duis aute irure dolor
       in reprehenderit in voluptate velit esse cillum dolore eu fugiat
       nulla pariatur. Excepteur sint occaecat cupidatat non proident,
       sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -36,13 +66,13 @@
     <div class="column">
       <h2>After</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-        in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-        sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <img src="http://lorempixel.com/400/200" alt="random picture">
+      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+      enim ad minim <span class="important">Duis aute irure dolor
+      in reprehenderit in voluptate velit esse cillum dolore eu fugiat</span>veniam, quis nostrud exercitation ullamco laboris
+      nisi ut aliquip ex ea commodo consequat.
+      nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+      sunt in culpa qui officia deserunt mollit anim id est          laborum.</p>
+      <img src="http://lorempixel.com/400/200" alt="random picture">
     </div>
   </body>
 </html>
