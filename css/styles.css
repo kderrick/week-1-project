@@ -34,3 +34,7 @@
 .buffer{
   margin-top: 100px;
 }
+
+.float-right {
+  float: right;
+}
