@@ -2,3 +2,21 @@
   color: red;
   font-weight: bolder;
 }
+
+.blue {
+  background-color: #c6e2ff;
+  border-radius: 25px;
+  padding: 40px;
+}
+
+.green {
+  background-color: #74a18e;
+  border-radius: 25px;
+  padding: 40px;
+}
+
+.grey {
+  background-color: #6a7d8e;
+  border-radius: 25px;
+  padding: 40px;
+}
