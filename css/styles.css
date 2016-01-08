@@ -54,3 +54,10 @@
 .new-list {
   list-style-type: upper-roman;
 }
+
+.span1 {
+  background-color: #afeeee;
+  border-radius: 15px;
+  padding: 5px;
+
+}

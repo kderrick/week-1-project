@@ -19,7 +19,7 @@ There are no known bugs at this time.
 
 ## Support and contact details
 
-If you have any issues or questions, I can be reached at kderrick1988@gmail.com or on Github as kderrick.
+If you have any issues or questions, I can be reached at kderrick1988@gmail.com or on Github as kderrick. (kderrick.github.io/week-1-project)
 
 ## Technologies Used
 
