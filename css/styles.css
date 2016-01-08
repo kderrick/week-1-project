@@ -20,3 +20,17 @@
   border-radius: 25px;
   padding: 40px;
 }
+
+.sidebar {
+  float: right;
+  margin-left: 100px;
+}
+
+.imgfloat {
+  float: left;
+}
+
+
+.buffer{
+  margin-top: 100px;
+}
