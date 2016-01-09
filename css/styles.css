@@ -59,5 +59,8 @@
   background-color: #afeeee;
   border-radius: 15px;
   padding: 5px;
+}
 
+body {
+  padding-top: 70px;
 }
