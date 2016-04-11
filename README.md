@@ -6,7 +6,7 @@
 
 ## Description
 
-This was the first indiviudal project that was done the first week of my time at Epicodus. It was a practice in using HTML, CSS and Bootstrap.
+This was the first indiviudal project that was done the first week of my time at Epicodus. It was a practice in using HTML, CSS and Bootstrap. While being very simple, this repository has been kept for posterity.
 
 ## Setup/Installation Requirements
 
